@@ -1,5 +1,5 @@
 import { Title } from "@/components/ui/title/Title";
-import { ProductGrid } from "@/modules/products/components";
+import { ProductGrid } from "@/products/components";
 import { initialData } from "@/seed/seed";
 import React from "react";
 

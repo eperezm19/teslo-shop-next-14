@@ -11,6 +11,7 @@ interface Props {
 
 export const ProductItem = ({ product }: Props) => {
   const [displayImage, setDisplayImage] = useState(product.images[0]);
+
   return (
     <div className="rounded-md overflow-hidden fade-in">
       <Link href={`/product/${product.slug}`}>
@@ -29,7 +30,7 @@ export const ProductItem = ({ product }: Props) => {
         <Link className="hover:text-blue-600" href={`/product/${product.slug}`}>
           {product.title}
         </Link>
-        <span className="font-bold">${product.price}</span>
+        <span className="font-bold">{product.price}</span>
       </div>
     </div>
   );
