@@ -14,15 +14,15 @@ interface NavigationItem {
 const navigation: NavigationItem[] = [
   {
     label: "Hombres",
-    link: "/category/men",
+    link: "/gender/men",
   },
   {
     label: "Mujeres",
-    link: "/category/women",
+    link: "/gender/women",
   },
   {
     label: "Niños",
-    link: "/category/kids",
+    link: "/gender/kid",
   },
 ];
 
